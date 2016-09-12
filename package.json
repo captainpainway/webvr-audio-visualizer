@@ -1,0 +1,27 @@
+{
+  "name": "spinning-cubes",
+  "description": "Spinning cubes in A-Frame. Testing adding components with JavaScript.",
+  "version": "0.3.0",
+  "license": "MIT",
+  "scripts": {
+    "browserify": "browserify ./js/required.js -o bundle.js",
+    "start": "budo --live --verbose --port 3000",
+    "deploy": "ghpages",
+    "ghpages": "ghpages"
+  },
+  "devDependencies": {
+    "budo": "^7.0.0",
+    "ghpages": "0.0.3"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-example",
+    "aframe-spinning-cubes",
+    "aframe-scene",
+    "webvr",
+    "vr"
+  ],
+  "dependencies": {
+    "aframe": "^0.3.1"
+  }
+}
