@@ -46,7 +46,7 @@ var CreateObjects = function() {
         var image = document.createElement('a-image');
         image.setAttribute('position', '0 3.5 -3');
         scene.appendChild(image);
-        image.setAttribute('src', '../img/attrib.png');
+        image.setAttribute('src', './img/attrib.png');
         image.setAttribute('width', '2.56');
         image.setAttribute('height', '.64');
     },
